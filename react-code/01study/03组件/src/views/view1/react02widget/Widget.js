@@ -9,7 +9,7 @@ export default class Widget extends React.Component {
     console.log("在渲染前调用!");
   }
   componentDidMount() {
-    console.log("发送AJAX请求等操作!");
+    console.log("发送AJAX请求等操作");
   }
   componentWillReceiveProps(newProps) {
     console.log("在组件接收到一个新的 prop (更新后)时被调用!");
