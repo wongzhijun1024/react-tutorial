@@ -1,0 +1,43 @@
+.HeaderBox {
+  background-color: #2f333e;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.titleBox {
+  display: flex;
+  flex-direction: row;
+  width: 15%;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.titleBox .icon {
+  font-size: 20px;
+  color: white;
+}
+
+.menuBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.menuBox .menuWords {
+  color: white;
+  font-size: 13px;
+  margin-left: 20px;
+}
